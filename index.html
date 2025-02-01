@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .picture {
+            max-height: fit-content;
+            max-width: fit-content;
+            border: 5px solid #ccc;
+            border-radius: 10px;
+        }
+
+        .profile {
+            float: right;
+        }
+    </style>
+
+    <title>Andrew Heiar</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="profile">
+                <img class="picture" src="images/profile.jpg" width="200px" alt="Profile Photo">
+            </div>
+            <div class="about">
+                <h1>Andrew Heiar</h1>
+                <p style="font-family: 'Courier New', Courier, monospace; color: rgb(0, 0, 0)"><strong>Software
+                        Engineer</strong></p>
+                <p>I am software engineer at Iowa State
+                    University. I have experience with Java, C, HTML, CSS, and much more. I'm looking for more opportunities
+                    to use my skills. <br>
+                    <a href="images/heiar_resume.pdf">View my resume</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3><strong>Archived Message Reconstruction</strong></h3>
+                <p>This project is an implementation of a binary-tree-based algorithm for reconstructing archived
+                    messages. Given a compressed message file ending in .arch, the program decodes and prints the
+                    original message to the console. The encoding scheme is provided as a pre-order traversal
+                    representation of a binary tree, where leaf nodes contain characters and internal nodes are empty.
+                </p>
+                <img src="images/monaLisa1.png" width="200px" alt="Mona Lisa message 1">
+                <img src="images/monaLisa2.png" width="200px" alt="Mona Lisa message 2">
+            </div>
+
+            <div class="project">
+                <h3><strong>Web Portfolio</strong></h3>
+                <p>The first project is related to develop a single Web page using
+                    only two technologies: HTML and CSS. The project consists in
+                    creating a single web page with a menu at the top know as
+                    Navigation Bar. We have to include text describing ourself and
+                    text describing the project. Additionally, we need to include
+                    two images: one image is of ourself and second image is anything
+                    related to the project itself.</p>
+                <img src="images/CSS_HTML_Logo.png" alt="CSS & HTML logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at heiarandrew@gmail.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Andrew Heiar</p>
+    </footer>
+
+</body>
+
+</html>
